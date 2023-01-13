@@ -5,6 +5,13 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
+    --red: rgb(255, 0, 0);
+    --green: rgb(94, 255, 0);
+    --yel: rgb(226, 223, 48);
+    --purp: rgb(166, 0, 255);
+
+
+
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -18,8 +25,8 @@
     transparent 360deg
   );
   --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
+    var(--red),
+    var(--purp)
   );
 
   --tile-start-rgb: 239, 245, 249;
@@ -46,7 +53,7 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
 
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --primary-glow: radial-gradient(var(--red), var(--purp));
     --secondary-glow: linear-gradient(
       to bottom right,
       rgba(1, 65, 255, 0),
@@ -73,6 +80,12 @@
   }
 }
 
+.Home_description__41Owk p {
+  background-color: var(--green);
+}
+
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -83,6 +96,22 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+.Home_main__nLjiQ {
+  color: var(--red);
+} 
+
+.in {
+  color: var(--green);
+}
+
+.dec {
+  color: var(--purp);
+}
+
+.sub {
+  color: var(--yel);
 }
 
 body {

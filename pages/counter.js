@@ -83,8 +83,8 @@ export default function Counter() {
           <p>
             {number}
           </p>
-          <button onClick={() => setNumber(number + 1)}>Increment</button>
-          <button onClick={() => setNumber(number - 1)}>Decrement</button>
+          <button class="in" onClick={() => setNumber(number + 1)}>Increment</button>
+          <button class= "dec" onClick={() => setNumber(number - 1)}>Decrement</button>
         </div>
       </main>
     </>
